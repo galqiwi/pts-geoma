@@ -1,0 +1,22 @@
+\include{./style}
+
+\begin{document}
+
+\section*{Задача}
+
+\subsection*{Условие}
+Дана плоскость $\alpha$, прямая $b$, прямая $a$, и точка $A$. Причем $a\subset\alpha$, $b\perp\alpha$, $A\in b, \alpha$. Докажите, что $|ba|=|Aa|$.
+\subsection*{Решение}
+Пусть точка $B$ -- проекция точки $A$ на прямую $a$. Докажем, что $|AB|$ -- расстояние между $b$ и $a$.
+
+\begin{proof}
+Рассмотрим на прямой $b$ точку $Q$, не равную $A$. Пусть плоскость $(AQB) = \beta$. Тогда $\beta \perp \alpha$, поскольку $AQ \perp \alpha$. Заметим, что прямая $c\subset\beta, B\in c$ перпендикулярна $a$ (поскольку содержится в $\beta$). А значит, что, поскольку $\beta$ содержит в себе два перпендикуляра $c$ и $AB$, $\beta$ -- плоскость перпендикуляров к прямой $a$ в точке $B$. А значит, что $|BQ|$ -- расстояние между точкой $Q$ и $a$. А, поскольку треугольник $ABQ$ прямоугольный, $QB > AB$. То есть AB -- расстояние между $b$ и $a$. 
+\end{proof}
+\newpage
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1\textwidth]{{./12.39}.png}
+\end{figure}
+
+
+\end{document}
