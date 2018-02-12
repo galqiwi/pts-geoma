@@ -1,0 +1,34 @@
+\include{./style}
+
+\begin{document}
+
+\section*{Задача}
+
+\subsection*{Условие}
+Пусть $A\in\alpha$ и прямая $AB$ перпендикулярна двум прямым $AC$ и $AD$ плоскости $\alpha$. Проведите прямую $AK$ в плоскости $\alpha$ и возьмите на ней любую точку $X\neq A$. Через точку X проведите отрезок, который заключен между прямыми $AC$ и $AD$ и точкой $X$ делится пополам. Соедините точку B с концами этого отрезка и токой $X$. Исходя из этого построения докажите, что $AB\perp\alpha$ 
+\subsection*{Решение}
+Так как $AB\perp AC$ и $AB\perp AD$, $AB\perp\alpha$. Из формулы медианы
+
+\begin{equation}
+|AX|^2=\frac{2|AC|^2|AD|^2-|CD|}{4}.
+\end{equation}
+
+\begin{equation}
+|BX|^2=\frac{2|BC|^2|BD|^2-|CD|}{4}.
+\end{equation}
+
+А значит, что
+
+\begin{equation}
+|BX|^2-|AX|^2 = |AB|^2.
+\end{equation}
+
+Из обратной теоремы Пифагора получаем, что $AB\perp \alpha$.
+\newpage
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1\textwidth]{{/home/galqiwi/geoma/7.25}.png}
+\end{figure}
+
+
+\end{document}

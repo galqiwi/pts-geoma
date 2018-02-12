@@ -1,0 +1,23 @@
+\include{./style}
+
+\begin{document}
+
+\section*{Задача}
+
+\subsection*{Условие}
+Пусть отрезок $PA$ -- перпендикуляр к плоскости $\alpha$, $A\in\alpha$. В плоскости $\alpha$ лежит отрезок $BC$, причем $|AB|=|AC|$. Пусть известны |PA|, $|BC|$ и угол, под которым отрезок $BC$ виден из точки $A$, т.е. $\angle BAC$. Как вычислить угол, под которым он виден из точки $P$, т.е. $\angle BPC$? Для этой же ситуации составьте задачу, обратную данной.
+\subsection*{Решение}
+Пусть $BA=CA=r$, $BC=x$, $AP=h$, $BP=CP=l$, $\angle BAC=\beta$ и $\angle BPC=\alpha$. Заметим, что, поскольку $\triangle BAC$ и $\triangle BAC$ -- равнобедренные треугольники, $x=2 a sin(\beta/2)=2 l sin(\alpha/2)$. Из этого следует, что $\alpha=2asin(\frac{a}{l} sin(\beta/2))$. Из теоремы пифагора
+\begin{equation}
+\displaystyle \alpha=2asin(\frac{a}{\sqrt{a^2+h^2}} sin(\beta/2))=2asin(\frac{\frac{x}{2sin(\beta/2)}}{\sqrt{{\frac{x}{2sin(\beta/2)}}^2+h^2}} sin(\beta/2)).
+\end{equation}
+Обратная задача:
+Известны $x$, $\alpha$ и $\beta$. Найти $h$.
+\newpage
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1\textwidth]{{/home/galqiwi/geoma/7.11}.png}
+\end{figure}
+
+
+\end{document}

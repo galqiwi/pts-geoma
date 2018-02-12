@@ -1,0 +1,18 @@
+\include{./style}
+
+\begin{document}
+
+\section*{Задача}
+
+\subsection*{Условие}
+Пусть отрезок $PO$ -- перпендикуляр к плоскости $\alpha$, $O\in\alpha$. Пусть $PA$, $PB$, $PC$ -- разные наклонные к этой плоскости, образующие между собой равные углы. Как вычислить угол между этими наклонными, если известны длина перпендикуляра к плоскости и длины наклонных? Для этой же ситуации составьте задачи, обратные данной.
+\subsection*{Решение}
+Заметим, что $\triangle APC = \triangle CPB = \triangle APB$. Как следствие $\triangle ABC$ равносторонний. Пусть $OP=h$, $PC=PB=PA=a$. Из теоремы пифагора следует, что $b=OA=OC=OB=\sqrt{a^2-h^2}$. Также $c=AC=\sqrt{3}*b$. Так как $\triangle APC$ равнобедренный, $2sin(\alpha/2)=c/a \Rightarrow \alpha=2asin(\frac{c}{2a})$.
+\newpage
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1\textwidth]{{/home/galqiwi/geoma/7.12}.png}
+\end{figure}
+
+
+\end{document}

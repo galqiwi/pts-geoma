@@ -1,0 +1,30 @@
+\include{./style}
+
+\begin{document}
+
+\section*{Задача}
+
+\subsection*{Условие}
+Треугольники $ABC$ и $ABD$ прямоугольные с прямым углом при вершине $B$, $ABC\perp ABD$. Докажите, что:
+
+\begin{enumerate}
+
+\item $ABC\perp BCD$
+\item $ABD\perp BCD$
+\item ACD не перпендикулярна плоскостям этих треугольников.
+
+\end{enumerate}
+\subsection*{Решение}
+\begin{enumerate}
+\item $DB\perp (ABC) \Rightarrow (ABC)\perp (BCD)$, поскольку $CB\in (ABC), (BCD)$.
+\item $AB\perp (DBC) \Rightarrow (ABD)\perp (BDC)$, поскольку $BD\in (ADB), (BDC)$.
+\item От противного. Если $(ACD)\perp(ABD)$, то $AD\perp AB, AC$. А значит, что $AD\perp (ABC) \Rightarrow AD||BD$. Противоречие.
+\end{enumerate}
+\newpage
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1\textwidth]{{/home/galqiwi/geoma/8.10}.png}
+\end{figure}
+
+
+\end{document}
