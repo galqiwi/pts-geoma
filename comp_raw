@@ -1,0 +1,1 @@
+cat ./problems | while read c; do echo $c; pdflatex $c.tex; done

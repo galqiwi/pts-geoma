@@ -21,7 +21,7 @@ echo "
 \end{figure}
 " >> $c.tex
 cat end >> $c.tex
-pdflatex $c > /dev/null
+pdflatex $c
 cp $c.pdf done
 echo $c is done
 done
